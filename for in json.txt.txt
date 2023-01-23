@@ -1,0 +1,31 @@
+Question No:1:
+
+JSON iterate over all for in:
+var lenovo={
+  "model":"gen 7",
+  "price":"34,990",
+  "memory":"8gb",
+  "warrenty":"1 year",
+  "speaker":"dolby",
+  "touch_screen":"no"
+};
+for(var a in lenovo){
+console.log(a,lenovo[a]);
+};
+  
+Question no:2:
+JSON format resume:
+1	var resume={
+2	"name":"Hemakumar",
+3	"age":"24",
+4	"date_of_birth":"10/03/1998",
+5	"gender":"male",
+6	"qualification":["10th","12th","b.com"],
+7	"experiance":"fresher",
+8	"language_known":["tamil","english"],
+9	"skills":"basic computer knowledge",
+10	"status":"single",
+11	"nationality":"indian",
+12	"hobbits":["studying books","listerning story"]
+13	};
+14	console.log(resume);
